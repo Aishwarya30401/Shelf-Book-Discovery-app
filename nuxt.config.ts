@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   runtimeConfig: {
-    googleBooksApiKey: process.env.NUXT_GOOGLE_BOOKS_API_KEY,
+    googleBooksApiKey: '',
   },
 
   // nitro: {
@@ -22,3 +22,4 @@ export default defineNuxtConfig({
 
   modules: ['@netlify/nuxt'],
 })
+
