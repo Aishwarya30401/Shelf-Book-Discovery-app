@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -17,6 +17,7 @@
     "vue": "^3.5.41"
   },
   "devDependencies": {
+    "@netlify/nuxt": "^0.3.9",
     "@storybook/addon-a11y": "^10.5.9",
     "@storybook/addon-docs": "^10.5.9",
     "@storybook/vue3-vite": "^10.5.9",
