@@ -23,5 +23,8 @@
     "@tailwindcss/vite": "^4.3.3",
     "@vitejs/plugin-vue": "^6.0.8",
     "storybook": "^10.5.9"
+  },
+  "overrides": {
+    "ansi-regex": "6.2.2"
   }
 }
